@@ -1,4 +1,22 @@
+
 p{
+    color:aqua;
+    background-color:blue;
+}
+
+
+/*
+
+Tag selector syntax
+tag_name{
+    prop1:value;
+    prop2:value;
+}
+
+*/
+
+
+h1{
     color:aqua;
     background-color:blue;
 }
