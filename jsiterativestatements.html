@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title> JS Iterative statements</title>
+    </head>
+    <body>
+
+        <!--
+            1. for-loop
+            2. while
+            3. do while
+        -->
+<script>
+/*
+syntax:
+for(initialization;condition;increment/decrement){
+    inst1;
+    inst2;
+}
+*/
+/*
+for(var i=0;i<5;i++){
+    document.write(i,":ABC");
+    document.write("<br>");
+}
+var colors=["red","blue","pink","yellow"];
+for (var i in colors){
+    document.write(colors[i]);
+    document.write("<br>") 
+}
+for(var i=0; i<=colors.length;i++){
+    document.write(colors[i]);
+    document.write("<br>")
+}
+
+var num=prompt("Please enter the number to print the table of it")
+for(var i=1; i<=10;i++){
+document.write(num,"x",i,"=",num*i,"<br>")
+}
+*/
+/*
+ var i=0;
+while(true){
+    document.write(i+"<br>");
+    i++;
+    if (i>10){
+        break;
+    }
+}
+*/
+/*
+var t=1;
+do{
+    document.write(t+"<br>");
+    t++;
+}while(t<=10)
+*/
+
+var num=prompt("enter the number to get the sum of n natural number")
+if (num<=0){
+    document.write("enter positive number")
+}
+else{
+    var sum=0;
+for(var i=0;i<=num;i++){
+ sum+=i;   
+}
+document.write(sum);
+}
+</script>
+    </body>
+</html>
